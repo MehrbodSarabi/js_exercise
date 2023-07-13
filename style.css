@@ -6,28 +6,51 @@ body, html{
 }
 body{
     padding: 15px;
-    background-color: green;
+    background-color: hotpink;
 }
 .nav{
     display: flexbox;
     text-align: center;
-    padding: 10px;
-    background-color: green;
-    border: 2px solid black;
+    padding: 15px;
+    padding-bottom: 20px;
+    font-size: 2rem;
+    color: hotpink;
+    background-color: white;
+    /* border: 2px solid black; */
 }
 .container{
     display: flex;
     text-align: center;
-    background-color: black;
+    background-color: white;
+    flex-wrap: wrap;
     padding: 10px;
+    flex-direction: row;
+    align-items: center;
     /* border: 2px solid black; */
 }
 .child{
-    flex-direction: row;
-    flex-grow: 1;
-    color: white;
-    border-left: 5px dotted green;
+    /* flex-direction: row-reverse; */
+    /* flex-grow: 1; */
+    color: pink;
+    font-size: 3rem;
+    /* border-left: 5px dotted pink; */
+}
+.c1{
+    color: hotpink;
+    flex: 0 1 25%;
+    border-left: 5px dotted hotpink;
+}
+.c2{
+    border-left: 5px dotted hotpink;
+    border-right: 5px dotted hotpink;
+    font-size: 5rem;
+    flex: 0 1 50%;
+    color: hotpink;
+    
+    padding: 10PX 10px;
 }
 .c3{
-    border-right: 5px dotted red;
+    color: hotpink;
+    flex: 0 1 25%;
+    border-right: 5px dotted hotpink;
 }

@@ -58,3 +58,48 @@ body{
     flex: 0 1 25%;
     border-right: 5px dotted hotpink;
 }
+.row{
+    display: flex;
+    background-color: white;
+    color: hotpink;
+    /* justify-content: center; */
+    border-radius: 25px;
+    flex-wrap: nowrap;
+    margin-bottom: 15px;
+    /* padding: 10px; */
+}
+.box{
+    /* margin: 10px; */
+    font-size: 7rem;
+    /* flex: 0 1 40%; */
+    text-align: center;
+    /* padding: 50px; */
+    border-radius: 25px;
+    border: 1px solid black;
+    margin-right: 15px;
+}
+.Left{
+    /* margin-right: 5px; */
+    /* align-items: flex-start; */
+    /* align-self: flex-start; */
+    color: aqua;
+    flex: 0 1 40%;
+    margin-left: 15px;
+    /* padding: 10px 120px; */
+
+}
+.Right{
+    flex: 0 1 40%;
+    align-self: flex-end;
+    /* padding: 10px 120px; */
+    /* align-self: flex-end; */
+}
+.Left30{
+    flex: 0 1 30%;
+}
+.Mid30{
+    flex: 0 1 30%;
+}
+.Right30{
+    flex: 0 1 30%;
+}

@@ -6,7 +6,7 @@ body, html{
 }
 body{
     padding: 15px;
-    background-color: hotpink;
+    background-color: black;
 }
 .nav{
     display: flexbox;
@@ -16,9 +16,12 @@ body{
     font-size: 2rem;
     color: hotpink;
     background-color: white;
+    margin-bottom: 15px;
+    border-radius: 20px;
     /* border: 2px solid black; */
 }
 .container{
+    border-radius: 20px;
     display: flex;
     text-align: center;
     background-color: white;
@@ -26,31 +29,32 @@ body{
     padding: 10px;
     flex-direction: row;
     align-items: center;
+    margin: 0px 50px 20px 50px;
     /* border: 2px solid black; */
 }
 .child{
     /* flex-direction: row-reverse; */
     /* flex-grow: 1; */
-    color: pink;
-    font-size: 3rem;
+    color: hotpink;
+    font-size: 4rem;
     /* border-left: 5px dotted pink; */
 }
 .c1{
-    color: hotpink;
+    /* color: hotpink; */
     flex: 0 1 25%;
     border-left: 5px dotted hotpink;
 }
 .c2{
     border-left: 5px dotted hotpink;
     border-right: 5px dotted hotpink;
+    border-style: none double;
     font-size: 5rem;
     flex: 0 1 50%;
-    color: hotpink;
-    
+    /* color: hotpink; */
     padding: 10PX 10px;
 }
 .c3{
-    color: hotpink;
+    /* color: hotpink; */
     flex: 0 1 25%;
     border-right: 5px dotted hotpink;
 }

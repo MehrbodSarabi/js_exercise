@@ -66,24 +66,25 @@ body{
     border-radius: 25px;
     flex-wrap: wrap;
     margin-bottom: 15px;
+    /* height: 300px; */
     /* padding: 10px; */
 }
 .innerRow{
     display: flex;
-    border: 1px solid red;
-    flex: 0 1 100%;
-    padding: 15px 15px;
-    justify-content: space-evenly;
+    /* border: 1px solid red; */
+    flex: 0 1 95%;
+    /* padding: 15px 15px; */
+    justify-content: center;
+    /* align-items: center; */
 }
 .box{
-    /* margin: 10px 10px; */
+    margin: 10px 10px;
     font-size: 7rem;
-    /* flex: 0 1 40%; */
     text-align: center;
     /* padding: 50px; */
     border-radius: 25px;
+    align-self: center;
     border: 1px solid black;
-    /* margin-right: 15px; */
 }
 .Left{
     /* margin-right: 5px; */
@@ -126,17 +127,17 @@ body{
     flex: 0 1 22%;
 }
 .First20{
-    flex: 0 1 15%;
+    flex: 0 1 17%;
 }
 .Second20{
-    flex: 0 1 15%;
+    flex: 0 1 17%;
 }
 .Third20{
-    flex: 0 1 15%;
+    flex: 0 1 17%;
 }
 .Fourth20{
-    flex: 0 1 15%;
+    flex: 0 1 17%;
 }
 .Fifth20{
-    flex: 0 1 15%;
+    flex: 0 1 17%;
 }

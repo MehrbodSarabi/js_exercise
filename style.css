@@ -20,6 +20,10 @@ body{
     border-radius: 20px;
     /* border: 2px solid black; */
 }
+.nav:hover{
+    font-size: 7rem;
+    background-color: black;
+}
 .container{
     border-radius: 20px;
     display: flex;
@@ -86,15 +90,19 @@ body{
     align-self: center;
     border: 1px solid black;
 }
+.box:hover{
+    background-color: hotpink;
+    color: black;
+}
 .Left{
     /* margin-right: 5px; */
     /* align-items: flex-start; */
     /* align-self: flex-start; */
     flex: 0 1 47%;
     color: aqua;
-    /* margin-left: 15px; */
-    /* padding: 10px 120px; */
-
+}
+.Left:hover, .Right:hover{
+    flex: 0 1 80%;
 }
 .Right{
     flex: 0 1 47%;
